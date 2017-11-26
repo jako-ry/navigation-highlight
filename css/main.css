@@ -8,6 +8,24 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  margin: 0;
+}
+
+header {
+  background-color: #ffe500;
+  padding: 0 .75em;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer {
+  background-color: #ffe500;
+  padding: .75em;
 }
 
 h1 {
@@ -20,45 +38,37 @@ h2 {
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 1.875rem;
-  padding: 0 .75em;
+  margin: .3em;
+  padding: .5em 0;
   text-align: left;
-}
-
-header {
-  background-color: #ffe500;
-}
-
-body {
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-footer {
-  background-color: #ffe500;
 }
 
 img {
   display: block;
   width: 100%;
-  padding: .75em;
+  padding: 0 .75em;
 }
 
 p {
-  font-size: 1.125rem;
-  padding: 0 .75em;
+  padding: .75em;
   text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 .6em;
 }
 
 nav a {
   display: inline-block;
-  padding: 0 .75em;
+  margin: -.075em;
+  padding: .25em .5em;
   background-color: #b2a212;
   border-radius: 4px;
   color: #fff;
